@@ -34,31 +34,45 @@ article{
     row-gap: 20px;
 }
 
-#container div{
+.container div{
     border-radius: 6px;
-    border: 1px solid black;
-    padding: 20px;
+    border: 1px solid #2C3E50;
+    padding: 15px;
     text-align: center;
     margin-left: 20px;
     margin-right: 20px;
 }
 
 div img{
-    width: 33%;
+    width: 30%;
 }
 
 #cim2{
     text-align: center;
+    margin-top: 10px;
+    border-bottom: #2C3E50 2px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #2C3E50;
 }
 
 .flex-cont{
     display: flex;
     flex-wrap: nowrap;
-    align-items: center ;
+    align-items: center;
+    margin-top: 20px;
 }
 
 .flex-cont #borderless{
-    width: 66%;
+    width: 70%;
     text-align: justify;
     border: 0;
+    padding-left: 10px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+div{
+    color: #2C3E50;
 }
